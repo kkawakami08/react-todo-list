@@ -91,3 +91,6 @@ li {
   background-color: #C05746;
 }
 
+.completed {
+  color: gray;
+}
