@@ -1,18 +1,11 @@
 import React from 'react'
+import Todo from './Todo'
 
-export default function TodoList() {
+export default function TodoList({todoList}) {
   return (
       <div className="todo-list">
         <ul>
-          <li>
-            <div className="todo-list">
-              <p>First Todo</p>
-              <div className="box-container">
-                <div className="todo-box check">✓</div>
-                <div className="todo-box delete">✕</div>
-              </div>
-            </div>
-          </li>
+          {todoList.map(todoItem => <Todo todo={todoItem}/>)}
         </ul>
       </div>
   )
