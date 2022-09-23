@@ -23,9 +23,13 @@ function App() {
     }
   }
 
+
   useEffect(() => {
     filterHandler();
+
   },[status,todoList])
+
+ 
 
   return (
     <div className="container">
