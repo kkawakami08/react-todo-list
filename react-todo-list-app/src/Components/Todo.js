@@ -16,7 +16,7 @@ export default function Todo({todoList, setTodoList, todo}) {
   }
   return (
     <div>
-      <li>
+      <li className="todo-list">
             <div className="todo-list">
               <p className={todo.completed ? "completed" : ""}>{todo.text}</p>
               <div className="box-container">
