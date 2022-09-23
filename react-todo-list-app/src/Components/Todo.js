@@ -5,7 +5,7 @@ export default function Todo({todo}) {
     <div>
       <li>
             <div className="todo-list">
-              <p>{todo.name}</p>
+              <p>{todo.text}</p>
               <div className="box-container">
                 <div className="todo-box check">✓</div>
                 <div className="todo-box delete">✕</div>

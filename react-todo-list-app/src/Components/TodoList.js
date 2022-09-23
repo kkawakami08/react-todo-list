@@ -5,7 +5,7 @@ export default function TodoList({todoList}) {
   return (
       <div className="todo-list">
         <ul>
-          {todoList.map(todoItem => <Todo todo={todoItem}/>)}
+          {todoList.map(todoItem => (<Todo todo={todoItem}/>))}
         </ul>
       </div>
   )

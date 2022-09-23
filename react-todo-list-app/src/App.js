@@ -6,7 +6,7 @@ import React, {useState} from 'react';
 function App() {
   const [inputText, setInputText] = useState("");
   const [todoList, setTodoList] = useState([{
-    name: "First Todo",
+    text: "First Todo",
     completed: false,
     id: Math.random() *1000
   }])
